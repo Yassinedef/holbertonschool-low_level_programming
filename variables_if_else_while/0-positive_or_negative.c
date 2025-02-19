@@ -1,6 +1,6 @@
-include < limits.h >
-include < stdio.h >
-include < stdlib.h >
+include <limits.h>
+include <stdio.h>
+include <stdlib.h>
 
 main(){
       char c;
@@ -14,16 +14,15 @@ main(){
 int n()
 {
     int n;
-    printf( "Please enter your age: ");
-    scanf( "%d", &age );
-    if ( age < 100 ) {
-        printf ("You are pretty young!\n");
+
+    if ( n < 100 ) {
+        printf ("NÃgatif!\n");
     }
-    else if ( age == 100 ) {
-        printf( "You are old\n");
+    else if ( n  == 0 ) {
+        printf( "Null\n");
     }
     else {
-        printf( "You are really old\n");
+        printf( "Positif\n");
     }
   return 0;
 }
