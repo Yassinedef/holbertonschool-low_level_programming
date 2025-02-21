@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+/**
+ *  main - attribue un nombre aleatoire a la variable a chaque fois qu'elle est execute
+ *  retour : toujours 0
+ */
 int main(void)
 {
 int n;
