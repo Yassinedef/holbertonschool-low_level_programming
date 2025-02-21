@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  *  main - attribue un nombre aleatoire a la variable qu'elle est execute
- *  retour : toujours 0
+ *  Return : toujours 0
  */
 int main(void)
 {
