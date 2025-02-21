@@ -9,16 +9,17 @@ int main(void)
 {
 int n;
 srand(time(0));
-n = rand() - RAND_MAX / 2; 
+n = rand() - RAND_MAX / 2;
 if (n > 5)
 {
-printf ("You are pretty young!\n");
+printf("You are pretty young!\n");
 }
 else if (n == 0)
 {
-printf("You are old\n");       
+printf("You are old\n");
 }
-else{
+else
+{
 printf("You are really old\n");
 }
 return (0);
