@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *  main - attribue un nombre aleatoire a la variable a chaque fois
- * qu'elle est execute
+ *  main - attribue un nombre aleatoire a la variable qu'elle est execute
  *  retour : toujours 0
  */
 int main(void)
